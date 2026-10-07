@@ -100,8 +100,8 @@ The suite has 5 test cases and 23 assertions, all using a fake HTTP client so no
 
 ## AI tools used
 
-- **Claude (Anthropic)**: my only AI tool. I used it to plan the architecture (a library plus a thin CLI, with an abstract `HttpClient` for testability), draft the libcurl wrapper, the SQLite upsert logic, the CLI, and the doctest suite, and to walk me through Git, CMake, and debugging while I worked in a toolchain newer to me. I'm more experienced in C and C++ than in this setup.
-- My own work: creating the repo and environment, running every build and test, diagnosing failures from the compiler output, and verifying behavior manually (live imports, repeat-import row counts checked with `sqlite3`, offline reads, and error cases).
+- Claude (Anthropic): My only AI tool. I used it to plan the architecture (a library plus a thin CLI, with an abstract `HttpClient` for testability), draft the libcurl wrapper, the SQLite upsert logic, the CLI, and the doctest suite, and to walk me through Git, CMake, and debugging while I worked in a toolchain newer to me. I'm more experienced in C and C++ than in this setup.
+- My own work: Creating the repo and environment, running every build and test, diagnosing failures from the compiler output, and verifying behavior manually (live imports, repeat-import row counts checked with `sqlite3`, offline reads, and error cases).
 
 ## An unfamiliar problem solved with AI
 
