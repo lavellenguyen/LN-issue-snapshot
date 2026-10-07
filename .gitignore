@@ -69,3 +69,5 @@ Testing/
 
 build/
 *.db
+
+.DS_Store
